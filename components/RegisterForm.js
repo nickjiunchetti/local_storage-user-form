@@ -107,7 +107,7 @@ export default function RegisterForm({ id }) {
 				onChange={(event) => setEmail(event.target.value)}
 				required />
 			<br />
-			<Button classes="mt-6 w-1/2" type="submit">{id ? 'Salvar' : 'Registrar'}</Button>
+			<Button classes="mt-6 md:w-1/2" type="submit">{id ? 'Salvar' : 'Registrar'}</Button>
 		</form>
 	)
 }

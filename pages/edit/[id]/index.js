@@ -24,7 +24,7 @@ export default function EditUser() {
 			<RegisterForm id={id} />
 			<Link href='/'>
 				<a>
-					<Button classes='w-1/2'>Ver Usuários</Button>
+					<Button classes='md:w-1/2'>Ver Usuários</Button>
 				</a>
 			</Link>
 		</Container>

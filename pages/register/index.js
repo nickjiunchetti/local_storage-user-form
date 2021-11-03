@@ -9,22 +9,21 @@ import Button from '../../components/Button'
 export default function RegisterUser() {
 
 	return (
-		<Container classes="flex flex-col w-full flex-1 text-center justify-between md:justify-start">
+		<Container classes="flex flex-col w-full flex-1 text-center justify-between md:justify-start md:w-1/2 md:mx-auto">
 			<Head>
 				<title>Registrar Usuário</title>
 			</Head>
 
-			<div className="md:w-1/2 mx-auto">
-				<Title>
-					Registrar Usuário
-				</Title>
-				<RegisterForm />
-				<Link href='/'>
-					<a>
-						<Button classes='w-1/2'>Ver Usuários</Button>
-					</a>
-				</Link>
-			</div>
+			<Title>
+				Registrar Usuário
+			</Title>
+			<RegisterForm />
+
+			<Link href='/'>
+				<a>
+					<Button classes='md:w-1/2'>Ver Usuários</Button>
+				</a>
+			</Link>
 		</Container>
 	)
 }
